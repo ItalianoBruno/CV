@@ -1,38 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
     <header>
+    <div class="header-style">
         <div class="logo">
-            <h1>Bruno Italiano</h1>
+            <h1 class="h1-style">Bruno Italiano</h1>
         </div>
-        <nav>
-                <p><a href="compo/about.html">Sobre mí</a></p>
-                <p><a href="#projects">Proyectos</a></p>
-                <p><a href="#contact">Contact</a></p> 
+        <nav class="nav-style">
+            <p><a href="#about">Sobre mí</a></p>
+            <p><a href="#projects">Proyectos</a></p>
+            <p><a href="#contactos">Contactos</a></p>
         </nav>
+    </div>
     </header>
-    
-    <main>
 
+    <main>
+        <section id="about">
+            <div class="flex">
+                <div class="imagen1">
+                    <img src="https://r-charts.com/es/miscelanea/procesamiento-imagenes-magick_files/figure-html/escalar-imagen-r.png" alt="Bruno Italiano" class="profile-pic">
+                </div>
+                <div>
+                    <h2>Sobre mí</h2>
+                    <p>¡Hola! Soy Bruno Italiano, un apasionado desarrollador web. Me encanta crear aplicaciones
+                        dinámicas y responsivas. Mi viaje en la tecnología comenzó con una curiosidad por cómo funcionan
+                        las cosas, y ha evolucionado hacia una carrera donde puedo expresar mi creatividad y habilidades
+                        para resolver problemas.
+                    </p>
+                    <p>En este portafolio, encontrarás una colección de mis proyectos, habilidades y experiencias.
+                        Siempre estoy ansioso por aprender nuevas tecnologías y mejorar mi oficio. ¡Gracias por visitar!
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="projects">
+            <h2>Proyectos</h2>
+        <div class="flexProyectos">
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1.</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2.</p>
+            </div>
+        </div>
+        </section>
     </main>
     
-    <footer>
-        <div class="footer-content">
-            <p>¡Contactame!</p>
-            
-                <p><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></p>
-                <p><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
-                <p><a href="https://github.com/ItalianoBruno" target="_blank">Mi GitHub</a></p>
-            
-        </div>
-    </footer>
-
+        <footer id="contactos">
+                <p>¡Contactame!</p>
+                <div class="social-links">
+                    <p><a href="https://bruno-italiano.itch.io/" target="_blank">Itch.io</a></p>
+                    <p><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+                    <p><a href="https://github.com/ItalianoBruno" target="_blank">GitHub</a></p>
+                </div>
+        </footer>
     <script src="assets/js/scripts.js"></script>
 </body>
+
 </html>
