@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -14,15 +14,7 @@ html, body {
 main {
     flex: 1;
 }
-.h1-style {
-    color: #ffffff;
-    margin: 0px;
-}
-.logo {
-    align-items: center;
-    display: flex;
-    align-items: center;
-}
+
 .nav-style {
     display: flex;
     justify-content: space-between;
@@ -56,27 +48,15 @@ footer {
     gap: 15px;
 }
 .social-links a {
-    color: #4db0e9; /* Cambia el color del texto a blanco */
-    text-decoration: none; /* Elimina el subrayado */
-    font-size: 16px; /* Tamaño de fuente opcional */
+    color: #4db0e9;
+    text-decoration: none;
+    font-size: 16px;
 }
-.flex {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
+
 .imagen1 {
     width: auto;
     height: auto;;
     object-fit: cover;
-}
-.flexProyectos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
 }
 .header-style { 
     background-color: #35424a;
@@ -84,4 +64,23 @@ footer {
     text-align: center;
     display: flex;
     justify-content: space-around;
+}
+.header-style2 { 
+    background-color: #35424a;
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.project {
+    text-align: justify;
+}
+/* .flex {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+} */
+.style-profile{
+    width: 50%;
 }
