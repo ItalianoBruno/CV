@@ -1,53 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Personal Portfolio</title>
-        <link rel="stylesheet" href="../assets/css/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
 <body>
     <header>
         <div class="header-style shadow-xl">
             <div class="flex items-center aling-center">
-                <a href="./index.html"
+                <a href="../index.html"
                     class="text-[26px] m-0 text-white font-semibold hover:scale-105 duration-500 easy-in-out">Bruno
                     Italiano</a>
             </div>
             <nav class="nav-style">
-                <a href="../index.html" class="text-md font-medium">Regresar</a>
-                <a href="../index.html#projects" class="text-md font-medium">Proyectos</a>
+                <a href="../index.html" class="text-md font-medium">Inicio</a>
             </nav>
         </div>
     </header>
-    <main>  
+    <main>
         <section id="about" class="pt-12">
             <div class="flex items-center justify-center w-full gap-12">
                 <div class="flex flex-col gap-4">
                     <h1 class="font-semibold text-[36px] w-auto">Más sobre mí</h1>
-                    <div class="flex flex-col gap-2">
-                        <p class="w-3xl">¡Hola! Soy Bruno Italiano, estudiante de la UNRaf en la Lic. en Producción de
-                            Videojuegos y Entretenimiento Digital.
-                            Mi timepo libre lo invierto en Videojuegos y juntarme con mis amigos, mi pasión por los
-                            vieojuegos comenzó con Bricks Breaker, pero fue con la PlayStation 2 donde realmente me
-                            sumergí en este mundo, disfrutando juegos como Ben 10: Alien Force, Pitfall y Crash
-                            Bandicoot: Guerra al Coco Maníaco.
-                            Esta pasión me llevó a estudiar la Licenciatura, donde sigo aprendiendo y explorando formas
-                            de crear experiencias únicas.
-                            Todos los días intento aprender más sobre este mundo, ya sea desde la posición de un
-                            desarrollador o un jugador.
+                    <div class="flex flex-col gap-2 text-justify">
+                        <p class="w-3xl font-[447]"> Además de los videojuegos, me gusta la física cuántica, la astrofísica, la historia y la filosofía. 
+                            No soy un experto en estos temas, ni mucho menos, pero disfruto aprender curiosidades sobre ellos. 
+                            Personalmente, creo que son muy interesantes.
                         </p>
-                        <p class="w-3xl mb"> </p>
+                        <p class="w-3xl mb font-[447]"> Soy una persona reflexiva, trabajo bien en equipo y también bajo presión, y cada día busco mejorar como persona.</p>
                     </div>
                 </div>
                 <div class="w-auto flex justify-center items-center">
                     <img src="../assets/imags/FotoPerfil.jpg" alt="Bruno Italiano"
-                        class="w-[250px] h-[330px] rounded-[72px] rounded-3xl shadow-md">
+                        class="w-[250px] h-[330px] rounded-[72px] shadow-md">
+                </div>
+            </div>
+            <div class="flex items-center justify-center w-full gap-12 mt-5">
+                <div class="w-auto flex justify-center items-center">
+                    <img src="../assets/imags/MetroExo.jpeg" alt="MetroExodus"
+                        class="w-[250px] h-[330px] rounded-[72px] shadow-md">
+                </div>
+                <div class="flex flex-col gap-4 text-justify">
+                    <h1 class="font-semibold text-[36px] text-right w-full">Juegos</h1>
+                    <div class="flex flex-col gap-2">
+                        <p class="w-3xl font-[447]">Mis generos favoritos son los RPG, aventura y shooters
+                            aunque
+                            disfruto de la mayoría de generos.
+                            Mi saga favorita es Metro.
+                        </p>
+                        <p class="w-3xl mb font-[447]">Algunos juegos que me marcaron son:</p>
+                        <li class="ml-5">Red Dead Redemption 2.</li>
+                        <li class="ml-5"> Metro: Exodus.</li>
+                        <li class="ml-5"> The Last of Us 2.</li>
+                        <li class="ml-5">God of War 2018.</li>
+                        <li class="ml-5">The Elder Scrolls: Skyrim.</li>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center justify-center w-full text-justify gap-12 mt-5">
+                <div class="flex flex-col gap-4">
+                    <h1 class="font-semibold text-[36px]">Música</h1>
+                    <div class="flex flex-col gap-2">
+                        <p class="w-3xl text-justify font-[447]">Mis generos musicales favoritos son el hip hop, ya sea
+                            rap o trap, y el rock nacional.
+                            Me gusta escuchar música siempre que pueda, sea lo que sea que esté haciendo.
+                        </p>
+                        <p class="w-3xl mb font-[447]">Algunos de mis artistas favoritos son:</p>
+                        <!-- acá intenté crear una lista ordenada pero no funciona haga lo que haga, creo que es por el tailwind-->
+                        <li class="ml-5">Milo J</li>
+                        <li class="ml-5">Zeballos17</li>
+                        <li class="ml-5">Rels B</li>
+                        <li class="ml-5">Ralphie Choo</li>
+                        <li class="ml-5">Shoda Monkas</li>
+                        <li class="ml-5">Babasonicos</li>
+                        <li class="ml-5">El Cuarteto de Nos</li>
+                    </div>
+                </div>
+                <div class="w-auto flex justify-center items-center">
+                    <img src="../assets/imags/Spotify1.PNG" alt="MetroExodus"
+                        class="w-[250px] h-[330px] rounded-[72px] shadow-md">
                 </div>
             </div>
         </section>
@@ -55,20 +95,21 @@
     <footer id="contactos" class="flex flex-col gap-4 items-center mt-8">
         <p class="text-lg font-semibold">¡Contactame!</p>
         <div class="social-links flex flex-row">
-            <a href="https://bruno-italiano.itch.io/" target="_blank"><img src="../assets/imags/itch.io.png" alt="itch.io"
-                    class="w-[32px] h-[32px] hover:scale-125 duration-500 easy-in-out"></a>
+            <a href="https://bruno-italiano.itch.io/" target="_blank"><img src="../assets/imags/itch.io.png"
+                    alt="itch.io" class="w-[32px] h-[32px] hover:scale-125 duration-500 easy-in-out"></a>
             <a href="https://linkedin.com/in/yourprofile" target="_blank"><img src="../assets/imags/linkedin.png"
                     alt="linkedIn" class="w-[32px] h-[32px] hover:scale-125 duration-500 easy-in-out"></a>
-            <a href="https://github.com/ItalianoBruno" target="_blank"><img src="../assets/imags/github.png" alt="github"
+            <a href="https://github.com/ItalianoBruno" target="_blank"><img src="../assets/imags/github.png"
+                    alt="github" class="w-[32px] h-[32px] hover:scale-125 duration-500 easy-in-out"></a>
+            <a href="https://www.instagram.com/brunoitaliano03/" target="_blank"><img
+                    src="../assets/imags/instagram.png" alt="instagram"
                     class="w-[32px] h-[32px] hover:scale-125 duration-500 easy-in-out"></a>
-            <a href="https://www.instagram.com/brunoitaliano03/" target="_blank"><img src="../assets/imags/instagram.png"
-                    alt="instagram" class="w-[32px] h-[32px] hover:scale-125 duration-500 easy-in-out"></a>
         </div>
         <div class="flex flex-row gap-3">
             <img src="../assets/imags/Gmail.png" alt="gmail" class="w-[32px] h-[32px]">
-            <p class="text-md flex items-center">brunoitaliano03@gmail.com</p>
+            <p class="flex items-center">brunoitaliano03@gmail.com</p>
         </div>
     </footer>
-    <script src="assets/js/scripts.js"></script>
 </body>
+
 </html>
