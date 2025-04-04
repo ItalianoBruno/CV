@@ -2,7 +2,7 @@ body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e5e6e7ab;
 }
 html, body {
     height: 100%;
@@ -32,7 +32,7 @@ nav a:hover {
     text-decoration: underline;
 }
 footer {
-    background: #35424a;
+    background: #6e8eb3f5;
     color: #ffffff;
     text-align: center;
     padding: 5px 0;
@@ -59,7 +59,7 @@ footer {
     object-fit: cover;
 }
 .header-style { 
-    background-color: #35424a;
+    background-color: #6e8eb3f5;
     padding: 15px 0;
     text-align: center;
     display: flex;
